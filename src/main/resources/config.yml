@@ -1,0 +1,20 @@
+# Maximale Clan-Groesse nach echter LuckPerms-Gruppe des Clan-Owners (OP zaehlt nicht).
+# Der hoechste passende Wert zaehlt. Hat der Owner keine dieser Gruppen, gilt default-limit (= Member).
+default-limit: 5
+limits:
+  member: 5
+  platin: 7
+  titan: 10
+  astat: 15
+  astro: 20
+  lunar: 25
+  neptun: 30
+
+# Wie lange eine Einladung gueltig ist (Sekunden)
+invite-seconds: 60
+
+# Clan-Tag vor jeder Chat-Nachricht anzeigen
+chat-tag: true
+
+# K/D formula: ratio = kills / deaths (standard), average = (kills + deaths) / 2
+kd-mode: ratio

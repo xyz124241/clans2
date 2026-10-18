@@ -1,0 +1,11 @@
+name: NeptunClans
+version: 1.0.0
+main: de.neptun.clans.ClansPlugin
+api-version: '1.21'
+author: Neptun
+description: Clan-System mit Menues, Raengen und Rechten
+softdepend: [PlaceholderAPI, LuckPerms, TAB]
+commands:
+  clan:
+    description: Clan-Befehl
+    usage: /clan
